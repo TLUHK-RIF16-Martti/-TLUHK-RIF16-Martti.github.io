@@ -1,3 +1,66 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-button, h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header styling */
 h1 {
-  color: cadetblue;
+  color: #444;
+  text-align: center;
+}
+
+/* Activity text styling */
+.activity-text {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 75%; /* Adjust the width as necessary */
+  text-align: center; /* Center text inside the div */
+}
+
+/* Button styling */
+.activity-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.activity-button:hover {
+  background-color: #0056b3;
+}
+
+/* Including Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+/* Applying the font to the body */
+body {
+  font-family: 'Roboto', sans-serif;
 }
